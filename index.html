@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+
+<html lang="es-419">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width= , initial-scale=1.0">
+        <title>Formulario con Bootstrap</title>
+        <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon"/>
+        <link rel="stylesheet" type="text/css" href="css/index_style.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png"/>
+        <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+        <link rel="manifest" href="img/site.webmanifest">
+    </head>
+
+    <body>
+        <header class="d-none d-sm-none d-md-block">
+            <nav class="navBar">
+                <div class="bannerBox">
+                    <img src="img/i12Large_logo.png" height="111" width="1024" alt="Banner logo Instituto 12"/> <br>
+                    <h1 class="bannTitle">ISFT### N12....MD12</h1>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <section class="formBox">
+                <form>
+                    <div class="row - 6">
+                        <div class="col -1">
+                            <div class="form-group">
+                                <label for="nombre">Nombre</label>
+                                <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre" required>
+                            </div>
+                        </div>
+
+                        <div class="col - 2">
+                            <div class="form-group">
+                                <label for="apellido">Apellido</label>
+                                <input type="text" class="form-control" id="apellido" placeholder="Ingrese su apellido" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label for="dni">DNI</label>
+                                <input type="text" class="form-control" id="dni" placeholder="Ingrese su DNI" required>
+                            </div>
+                        </div>
+
+                        <div class="col-6">
+                            <div class="form-group">
+                                <label for="nacionalidad">Nacionalidad</label>
+                                <input type="text" class="form-control" id="nacionalidad" placeholder="Ingrese su nacionalidad" required>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-2">
+                            <div class="form-group">
+                                <label>Género</label>
+                            </div>
+                        </div>
+
+                        <div class="col-2">
+                            <select name="" class="form-control">
+                                <option>Masculino</option>
+                                <option>Femenino</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="rss">
+                        <section>
+                            <label>Redes Sociales</label>
+                            <p>En caso de que posea algún perfil de redes sociales puede colocar un enlace directo a su perfil</p>
+                        </section>
+                    </div>
+
+                    <div>
+                        <div class ="row">
+                            <div class="col-2">
+                                <div class="form-group">
+                                    <label class="img-logo">Introduzca su perfil de Facebook</label>
+                                    <input type="text" class="form-control" id="fbLink" placeholder="https://www.facebook.com/miperfil">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class ="row">
+                        <div class="col-2">
+                            <div class="form-group">
+                                <label class="img-logo">Introduzca su perfil de Instagram</label>
+                                <input type="text" class="form-control" id="instaLink" placeholder="https://www.instagram.com/miperfil">
+                            </div>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="btn-send">Enviar</button>
+                </form>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p class="copyright">&copy; Copyright &#124; Instituto Superior de Formación Técnica N°12</p> &#124;<p id="dataTime"> 2024</p>
+            <h6 class="dev-code">Creado por &#123; Code&#60;&#47;&#62;Design &#125; &#174; &#124; Mariano Maldonado CEO &#123; Dev&#60;&#47;&#62;Code &#125;</h6>
+        </footer>
+    </body>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/bootstrap.esm.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/index.js"></script>
+</html>
+
+<!-- //Crear un formulario con la siguiente estructura//
+ISFT### N12....MD12
+Nombre
+Ingrese su nombre
+Apellido
+Ingrese su apellido
+DNI
+Ingrese su DNI
+Nacionalidad
+Ingrese su nacionalidad
+genero
+masculino
+masculino
+femenino
+femenino
+Redes Sociales
+facebook
+instagram
+Instagram
+Enviar
+-->

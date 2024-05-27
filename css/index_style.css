@@ -1,0 +1,153 @@
+@import url('/css/reset.css');
+@import '@fontsource/jetbrains-mono';
+
+html{
+    background: url(img/hardware-placa.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.navBar{
+    display: contents;
+}
+
+main{
+    font-size: 18px;
+}
+
+.bannTitle{
+    font-family: 'JetBrains Mono', monospace;
+    padding-top: 16px;
+}
+
+.bannerBox{
+    width: auto;
+    font-size: 3em;
+    text-align: center;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    background: #0a3622;
+}
+
+form{
+    margin: 40px 20px;
+}
+
+.formBox{
+    width: auto;
+    font-family: 'JetBrains Mono', monospace;
+    margin-left: 24px;
+    margin-right: 24px;
+    padding-left: 96px;
+    padding-right: 96px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    padding-top: 48px;
+    padding-bottom: 48px;
+    background: #0a53be;
+}
+
+.form-group{
+    margin-bottom: 18px;
+    margin-top: 6px;
+    padding-top: 7px;
+}
+
+.form-control{
+    margin-top: 8px;
+    margin: 0 20px 20px;
+    padding: 10px 25px;
+    width: 300%;
+}
+
+.form-control input[type="text"]
+/*.form-control input[type="email"],
+.form-control input[type="tel"]*/{
+    border: none;
+}
+
+/*Estilo del input en estado inválido*/
+
+  .form-control input[type="text"]:invalid
+  /*.form-control input[type="email"]:invalid,
+  .form-control input[type="tel"]:invalid*/{
+      border: 2px solid #f69047;
+  }
+
+/*Estilo del input en estado Válido*/
+
+  .form-control input[type="text"]:valid
+  /*.form-control input[type="email"]:valid,
+  .form-control input[type="tel"]:valid*/{
+      border: 2px solid #2a8f83;
+  }
+
+.form-control input[type="text"]:focus
+/*.form-control input[type="email"]:focus,
+.form-control input[type="tel"]:focus*/{
+    outline: none;
+}
+
+.rss{
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+#fbLink{
+    margin: 0 20px 20px;
+    padding: 10px 25px;
+    width: 300%;
+}
+
+#instaLink{
+    margin: 0 20px 20px;
+    padding: 10px 25px;
+    width: 300%;
+}
+
+.btn-send{
+    width: auto;
+    border-style: none;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-weight: bold;
+    transition: 2s all;
+    border: none;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+.btn-send:hover{
+    background: cadetblue;
+    transform: scale(1.2);
+}
+
+.btn-send:focus{
+    background: #146c43;
+    transform: scale(1.2);
+}
+
+.footer{
+    width: auto;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 20px;
+    background: #0d6efd;
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 48px;
+}
+
+footer p{
+    display: inline;
+}
+
+footer h6{
+    font-size: 18px;
+}
